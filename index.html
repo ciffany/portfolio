@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ciffany Mascarenhas | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar">
+      <a href="#home" class="brand">Ciffany</a>
+
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-links">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">Student Portfolio</p>
+        <h1>Ciffany Mascarenhas</h1>
+        <p class="hero-role">Web Developer</p>
+        <p class="hero-text">
+          I build responsive, user-friendly websites with HTML, CSS and JavaScript, with a focus on clean layout, clear structure and smooth experience across devices.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-secondary">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="hero-panel">
+        <div class="hero-card">
+          <p class="card-label">Current Focus</p>
+          <h2>Frontend Projects</h2>
+          <p>Building polished websites that adapt well to phones, tablets and desktops.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-heading">
+        <p>About Me</p>
+        <h2>A short introduction</h2>
+      </div>
+      <div class="about-grid">
+        <article class="info-card">
+          <h3>Who I Am</h3>
+          <p>
+            I am a passionate web development student who enjoys turning ideas into modern websites. I like building interfaces that look clean, feel easy to use and stay consistent on every screen size.
+          </p>
+        </article>
+        <article class="info-card">
+          <h3>What I Value</h3>
+          <p>
+            Good design, responsive layouts and practical front-end development. I keep improving by creating real projects and refining how they perform on different devices.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-heading">
+        <p>Skills</p>
+        <h2>Tools I use</h2>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card">HTML</article>
+        <article class="skill-card">CSS</article>
+        <article class="skill-card">JavaScript</article>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-heading">
+        <p>Projects</p>
+        <h2>Featured work</h2>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card">
+          <span class="project-tag">Project 01</span>
+          <h3>Personal Portfolio Website</h3>
+          <p>A modern portfolio website created using HTML, CSS and JavaScript to showcase my profile, skills and projects in a responsive layout for all devices.</p>
+        </article>
+
+        <article class="project-card">
+          <span class="project-tag">Project 02</span>
+          <h3>E-commerce Website</h3>
+          <p>An e-commerce website project designed with clean product sections and a user-friendly layout using HTML, CSS and JavaScript.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="section-heading">
+        <p>Contact</p>
+        <h2>Get in touch</h2>
+      </div>
+      <div class="contact-card">
+        <p>If you want to collaborate or discuss a web project, feel free to reach out.</p>
+        <div class="contact-list">
+          <span>(My email address)</span>
+          <span>Available for student and project work</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
